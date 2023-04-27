@@ -19,7 +19,7 @@ pictures = st.container()
 text = st.container()
 
 def firstImage():
-    one = Image.open('1.jpg')
+    one = Image.open('STOCHAST/1.jpg')
     with pictures:
         st.image(one, width=500)
     with text:
@@ -27,7 +27,7 @@ def firstImage():
 
 
 def secondImage():
-    two = Image.open('2.jpg')
+    two = Image.open('STOCHAST/2.jpg')
     with pictures:
         st.image(two, width=500)
     with text:
@@ -35,7 +35,7 @@ def secondImage():
 
 
 def thirdImage():
-    three = Image.open('3.jpg')
+    three = Image.open('STOCHAST/3.jpg')
     with pictures:
         st.image(three, width=500)
     with text:
@@ -43,7 +43,7 @@ def thirdImage():
 
 
 def fourthImage():
-    four = Image.open('4.jpg')
+    four = Image.open('STOCHAST/4.jpg')
     with pictures:
         st.image(four, width=500)
     with text:
@@ -51,7 +51,7 @@ def fourthImage():
 
 
 def fiveImage():
-    five = Image.open('5.jpg')
+    five = Image.open('STOCHAST/5.jpg')
     with pictures:
         st.image(five, width=500)
     with text:
