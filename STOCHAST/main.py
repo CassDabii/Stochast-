@@ -22,6 +22,7 @@ row4 = st.container()
 row5 = st.container()
 
 containers = [row1, row2, row3, row4, row5]
+
 col1, col2 = st.columns(2)
 
 def firstImage():
@@ -40,7 +41,7 @@ def secondImage():
         with col1:
             st.image(two, width=200)
         with col2:
-            st.text("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
+            st.write("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
 that low. I cant trust them.""")
 
 
@@ -50,7 +51,7 @@ def thirdImage():
         with col1:
             st.image(three, width=200)
         with col2:
-            st.text("""The eating grew to an end. He lowered his voice as though they could be heard over the din and
+            st.write("""The eating grew to an end. He lowered his voice as though they could be heard over the din and
 clatter. Ive been watchin him you know. I invite you to join me in the next room for entertainment.""")
 
 
@@ -60,7 +61,7 @@ def fourthImage():
         with col1:
             st.image(four, width=200)
         with col2:
-            st.text("""Say Bermondsey and they wrinkle their noses. Still, it was the home before all homes. The river
+            st.write("""Say Bermondsey and they wrinkle their noses. Still, it was the home before all homes. The river
 lapped beneath us as we slept. Dark water heaved up an odd sullen grey.""")
 
 
@@ -70,7 +71,7 @@ def fiveImage():
         with col1:
             st.image(five, width=200)
         with col2:
-            st.text("""Im all out of pop groups, was I wrong to be angry? You’ve done everything u could. I sighed heavily. I
+            st.write("""Im all out of pop groups, was I wrong to be angry? You’ve done everything u could. I sighed heavily. I
 just wanted to…. What was I thinking?.""")
 
 
