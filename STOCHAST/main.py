@@ -19,7 +19,8 @@ col1, col2, col3 = st.columns(3)
 
 col2 = ' '
 pictures = col1
-text = col2
+text = col3
+
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with pictures:
