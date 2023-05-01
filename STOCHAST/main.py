@@ -14,8 +14,12 @@ st.markdown("""
 
 st.markdown("""
 <style>
-.nextTo {
-    float: right;
+.left-image {
+    float: left;
+    margin-right: 20px;
+}
+.next-to-image {
+    margin-left: 220px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -36,9 +40,9 @@ col1, col2 = st.columns(2)
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with containers.pop(random.randrange(len(containers))):
-            st.image(one, width=400)
-            st.markdown('''<p class="nextTo">A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
-the table. I had no more need for money and I want them to know.</p>''', unsafe_allow_html=True)
+            st.markdown(f'<img src="data:image/jpeg;base64,{image_to_base64(one)}" class="left-image">', unsafe_allow_html=True)
+            st.markdown('<p class="next-to-image">A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on the table. I had no more need for money and I want them to know.</p>', unsafe_allow_html=True)
+
 
 
 def secondImage():
