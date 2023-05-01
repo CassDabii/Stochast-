@@ -19,43 +19,48 @@ pictures = st.container()
 text = st.container()
 
 def firstImage():
-    one = Image.open('STOCHAST/1.jpg')
+    one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with pictures:
         st.image(one, width=500)
     with text:
-        st.text("1111111111111111111111111111111111111")
+        st.text("A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
+the table. I had no more need for money and I want them to know.")
 
 
 def secondImage():
-    two = Image.open('STOCHAST/2.jpg')
+    two = Image.open('STOCHAST/IMG_1944-2.jpeg')
     with pictures:
         st.image(two, width=500)
     with text:
-        st.text("222222222222222222222")
+        st.text("So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
+that low. I cant trust them.")
 
 
 def thirdImage():
-    three = Image.open('STOCHAST/3.jpg')
+    three = Image.open('STOCHAST/IMG_1990-2.jpeg')
     with pictures:
         st.image(three, width=500)
     with text:
-        st.text("33333333333333333333333333333")
+        st.text("The eating grew to an end. He lowered his voice as though they could be heard over the din and
+clatter. Ive been watchin him you know. I invite you to join me in the next room for entertainment.")
 
 
 def fourthImage():
-    four = Image.open('STOCHAST/4.jpg')
+    four = Image.open('STOCHAST/IMG_2061.jpg')
     with pictures:
         st.image(four, width=500)
     with text:
-        st.text("4444444444444444444444444444444")
+        st.text("Say Bermondsey and they wrinkle their noses. Still, it was the home before all homes. The river
+lapped beneath us as we slept. Dark water heaved up an odd sullen grey.")
 
 
 def fiveImage():
-    five = Image.open('STOCHAST/5.jpg')
+    five = Image.open('STOCHAST/IMG_2191.jpg')
     with pictures:
         st.image(five, width=500)
     with text:
-        st.text("555555555555555555555555555555")
+        st.text("Im all out of pop groups, was I wrong to be angry? You’ve done everything u could. I sighed heavily. I
+just wanted to…. What was I thinking?.")
 
 
 function_list = [firstImage ,secondImage ,thirdImage, fourthImage, fiveImage]
