@@ -15,18 +15,15 @@ st.markdown("""
 st.markdown('<p class="big-font">STOCHAST</p>', unsafe_allow_html=True)
 st.subheader('A STORY SUBJECT TO THE LAWS OF PROBABILITY')
 
-col1,col2,col3,col4,col5 = st.columns(5)
+col1, col2, col3 = st.columns(3)
 
+col2 = ' '
 pictures = col1
-text = col5
-col2= ' '
-col3= ' '
-col5= ' '
-
+text = col2
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with pictures:
-        st.image(one, width=80)
+        st.image(one, width=350)
     with text:
         st.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
 the table. I had no more need for money and I want them to know.""")
