@@ -69,4 +69,4 @@ for function in function_list:
 st.divider()
 
 st.text('''Fine art installation by Dante McDonald
-           In colaboration with CASSACORP''')
+           In collaboration with CASSACORP''')
