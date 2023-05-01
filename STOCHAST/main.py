@@ -12,6 +12,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+.nextTo {
+    float: right;
+    padding: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown('<p class="big-font">STOCHAST</p>', unsafe_allow_html=True)
 st.subheader('A STORY SUBJECT TO THE LAWS OF PROBABILITY')
 
@@ -29,8 +38,8 @@ def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with containers.pop(random.randrange(len(containers))):
             st.image(one, width=200)
-            st.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
-the table. I had no more need for money and I want them to know.""")
+            st.markdown(<p class="nextTo">A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
+the table. I had no more need for money and I want them to know.</p>, unsafe_allow_html=True)
 
 
 def secondImage():
