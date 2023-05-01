@@ -15,8 +15,11 @@ st.markdown("""
 st.markdown('<p class="big-font">STOCHAST</p>', unsafe_allow_html=True)
 st.subheader('A STORY SUBJECT TO THE LAWS OF PROBABILITY')
 
-pictures = st.container()
-text = st.container()
+col1,col2,col3,col4,col5 = st.columns(5)
+
+pictures = col1
+text = col 5
+col2,col3,col4 = ' '
 
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
