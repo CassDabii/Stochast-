@@ -18,7 +18,7 @@ st.subheader('A STORY SUBJECT TO THE LAWS OF PROBABILITY')
 col1,col2,col3,col4,col5 = st.columns(5)
 
 pictures = col1
-text = col 5
+text = col5
 col2,col3,col4 = ' '
 
 def firstImage():
