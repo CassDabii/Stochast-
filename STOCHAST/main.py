@@ -25,7 +25,7 @@ containers = [row1, row2, row3, row4, row5]
 
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
-    with containers.pop(random.randrange(len(containers)))::
+    with containers.pop(random.randrange(len(containers))):
         st.image(one, width=350)
         st.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
 the table. I had no more need for money and I want them to know.""")
