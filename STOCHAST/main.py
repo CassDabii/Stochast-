@@ -28,8 +28,8 @@ col1, col2 = st.columns(2)
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with containers.pop(random.randrange(len(containers))):
-            st.image(one, width=200)
-            st.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
+            col1.image(one, width=200)
+            col2.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
 the table. I had no more need for money and I want them to know.""")
 
 
