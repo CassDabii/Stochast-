@@ -28,6 +28,7 @@ col1, col2 = st.columns(2)
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with containers.pop(random.randrange(len(containers))):
+        st.write('testttt')
         with col1:
             st.image(one, width=200)
         with col2:
