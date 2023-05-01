@@ -22,7 +22,7 @@ def firstImage():
     with pictures:
         st.image(one, width=500)
     with text:
-        st.text("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
+        st.write("""A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on
 the table. I had no more need for money and I want them to know.""")
 
 
