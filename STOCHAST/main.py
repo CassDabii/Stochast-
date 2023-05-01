@@ -17,6 +17,7 @@ st.markdown("""
 .nextTo {
     float: right;
     padding: 10px;
+    margin-left: 220px;
 }
 </style>
 """, unsafe_allow_html=True)
