@@ -40,7 +40,7 @@ def secondImage():
         with col1:
             st.image(two, width=200)
         with col2:
-        st.text("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
+            st.text("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
 that low. I cant trust them.""")
 
 
