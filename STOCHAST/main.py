@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 import random
+import base64
+
 
 st.set_page_config(layout='wide')
 
