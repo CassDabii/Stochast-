@@ -42,7 +42,8 @@ col1, col2 = st.columns(2)
 def firstImage():
     one = Image.open('STOCHAST/IMG_1469-4.jpeg')
     with containers.pop(random.randrange(len(containers))):
-            st.markdown(f'<img src="data:image/jpeg;base64,{image_to_base64(one)}" class="left-image">', unsafe_allow_html=True)
+            st.markdown(f'''
+            <img class="left-image" src="data:image/jpeg;base64,{base64.b64encode(open(one, "rb").read()).decode()}>''', unsafe_allow_html=True)
             st.markdown('<p class="next-to-image">A twenty euro on the table to cover the meal, then emptied the rest of the contents of the purse on the table. I had no more need for money and I want them to know.</p>', unsafe_allow_html=True)
 
 
