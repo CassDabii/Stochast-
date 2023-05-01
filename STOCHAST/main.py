@@ -46,7 +46,7 @@ clatter. Ive been watchin him you know. I invite you to join me in the next room
 
 
 def fourthImage():
-    four = Image.open('STOCHAST/IMG_2061.jpg')
+    four = Image.open('STOCHAST/IMG_2061.jpeg')
     with pictures:
         st.image(four, width=500)
     with text:
@@ -55,7 +55,7 @@ lapped beneath us as we slept. Dark water heaved up an odd sullen grey.""")
 
 
 def fiveImage():
-    five = Image.open('STOCHAST/IMG_2191.jpg')
+    five = Image.open('STOCHAST/IMG_2191.jpeg')
     with pictures:
         st.image(five, width=500)
     with text:
