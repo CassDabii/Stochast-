@@ -31,7 +31,7 @@ def secondImage():
     with pictures:
         st.image(two, width=500)
     with text:
-        st.text("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
+        st.write("""So this is revenge?. Im doing this for you. Whatever you may think of me I wouldn’t do something
 that low. I cant trust them.""")
 
 
@@ -40,7 +40,7 @@ def thirdImage():
     with pictures:
         st.image(three, width=500)
     with text:
-        st.text("""The eating grew to an end. He lowered his voice as though they could be heard over the din and
+        st.write("""The eating grew to an end. He lowered his voice as though they could be heard over the din and
 clatter. Ive been watchin him you know. I invite you to join me in the next room for entertainment.""")
 
 
@@ -49,7 +49,7 @@ def fourthImage():
     with pictures:
         st.image(four, width=500)
     with text:
-        st.text("""Say Bermondsey and they wrinkle their noses. Still, it was the home before all homes. The river
+        st.write("""Say Bermondsey and they wrinkle their noses. Still, it was the home before all homes. The river
 lapped beneath us as we slept. Dark water heaved up an odd sullen grey.""")
 
 
@@ -58,7 +58,7 @@ def fiveImage():
     with pictures:
         st.image(five, width=500)
     with text:
-        st.text("""Im all out of pop groups, was I wrong to be angry? You’ve done everything u could. I sighed heavily. I
+        st.write("""Im all out of pop groups, was I wrong to be angry? You’ve done everything u could. I sighed heavily. I
 just wanted to…. What was I thinking?.""")
 
 
